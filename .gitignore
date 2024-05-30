@@ -1,0 +1,23 @@
+
+#folders
+discord/
+eog/
+xfce4/
+xsettingsd/
+Electron/
+garbage/
+ibus/
+libaccounts-glib/
+Code - OSS/
+dconf/
+pulse/
+gtk-3.0/
+gtk-4.0/
+nwg-look/
+
+
+#files
+mimeapps.list
+pavucontrol.ini
+user-dirs.dirs
+user-dirs.locale

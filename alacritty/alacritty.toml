@@ -1,0 +1,29 @@
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[window]
+padding = { x = 10, y = 10 }
+decorations = "full"
+
+[mouse]
+# Cursor settings
+# `hide_when_typing` can be true or false.
+hide_when_typing = true
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+
+size = 12.0
+
+# Offset is the extra space around each character. `x` can be thought of as horizontal spacing, and `y` as vertical spacing.
+# Positive values will move the characters further apart, while negative values will bring them closer together.
+offset = { x = 0, y = 0 }
+
+# Glyph offset determines the extra space to offset characters in the font.
+# Positive values will shift the glyphs down and to the right, while negative values will shift them up and to the left.
+glyph_offset = { x = 0, y = 0 }
+

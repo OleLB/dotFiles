@@ -1,0 +1,90 @@
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: "Noto Sans CJK KR Regular";
+  font-size: 15px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: .5s;
+  padding: 0 50px;
+}
+
+#waybar.empty #window {
+  background-color: transparent;
+}
+
+#workspaces {
+}
+
+#window {
+  margin: 0 40px;
+  padding-left: 80px;
+  padding-right: 8px;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+}
+
+#workspaces button {
+  margin: 0 4px;
+  background-color: rgba(0,0,0,0.5);
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+#workspaces:first-child {
+    padding-left: 18px;
+}
+
+#workspaces button:hover {
+  background-color: rgba(0,98,97,0.5);
+}
+
+#clock,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#idle_inhibitor,
+
+#mpd { /* applies to all elements on right side */
+  margin: 2px;
+  padding: 0 6px;
+  color: #ffffff;
+}
+
+#clock {
+  font-size:14px;
+  padding: 0 4px;
+  margin-right: 10px;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+#network.disconnected {
+  background-color: #f53c3c;
+}
+
+#temperature.critical {
+  background-color: #eb4d4b;
+}
+
+#idle_inhibitor.activated {
+  background-color: #ecf0f1;
+  color: #2d3436;
+}
+
+.modules-right {
+    background-color: rgba(0,0,0,0.5);
+    margin-right: 20px;
+    border-radius: 5px;
+}

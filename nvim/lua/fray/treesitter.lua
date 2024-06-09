@@ -1,5 +1,5 @@
-local M = {
-}
+local M = {}
+
 function M.config()
   local treesitter = require "nvim-treesitter"
   local configs = require "nvim-treesitter.configs"
@@ -16,8 +16,12 @@ function M.config()
         "jsonc",
         "yaml",
         "json",
-        "cpp"
-
+        "cpp",
+        "rust",
+        "html",
+        "javascript",
+        "vue",
+        "css"
     }, -- put the language you want in this array
 
     -- ensure_installed = "all", -- one of "all" or a list of languages
@@ -31,7 +35,7 @@ function M.config()
     autopairs = {
       enable = true,
     },
-    indent = { enable = true, disable = { "python", "css" } },
+    indent = { enable = true },  -- disable = { "python", "css" }
 
     context_commentstring = {
       enable = true,

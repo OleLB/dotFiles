@@ -78,7 +78,7 @@ return packer.startup(function(use)
 
   -- LSP
   use { "neovim/nvim-lspconfig" } -- LSP
-  use { "williamboman/mason.nvim" } -- Masonj 
+  use { "williamboman/mason.nvim", run = ":MasonUpdate" } -- Masonj 
   use { "williamboman/mason-lspconfig.nvim" } -- Mason LSP config
 
   --tree sitter

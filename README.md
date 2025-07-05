@@ -11,3 +11,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 config: 
 https://github.com/dreamsofcode-io/tmux
+
+
+# Exegol
+
+https://docs.exegol.com/first-install
